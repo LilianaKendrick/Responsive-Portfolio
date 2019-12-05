@@ -1,44 +1,123 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>HomeWork Unit 1</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Welcome To My Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style bonus.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: black;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+        @media (max-width: 980px)
+        (max-width: 768px)
+        (max-width: 640px)
+        
+        {
+
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <header>
-    <p>header</p>
-  </header>
+    <div style="background:yellow;padding:5px">
+        <h4 style="text-align:center">Resize me to see my effects.</h4>
+    </div>
 
-  <nav>
-    <p>nav</p>
-  </nav>
+    <div class="header">
+        <h1>Lilianas Website</h1>
+        <p>With a <b>flexible</b> layout.</p>
+    </div>
 
-  <section>
-    <heading>
-      <p>section</p>
-    </heading>
-    <article>
-      <heading>article</heading>
-      <h1>h1, h2, h3</h1>
-      <p>p</p>
-    </article>
-  </section>
+    <div class="navbar">
+        <a href="#">Click Me!</a>
+        <a href="#">You Could Win Money!</a>
+        <a href="#">Just kidding!</a>
+    </div>
 
-  <aside>
-    <heading>
-      <p>aside</p>
-    </heading>
-  </aside>
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>Welcome to our page lol:</h5>
+            <img src="thanksgiving day.jpg.JPG" style="height:400px;"></div>
+        </div>
+        <div class="main">
+            <h2>I hope this is right!</h2>
+            <h5>Title description, Dec 5, 2019</h5>
+            <img src="leilani&me.jpg.JPG" style="height:400px;"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+                    porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc
+                    rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
+                    consectetur.</p>
+            <br>
+            <h2>I inculded my biggest motivation!</h2>
+            <h5>Title description, Dec 5, 2019</h5>
+            <img src="leilani.JPG.JPG"style="height:400px;"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+                    porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc
+                    rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
+                    consectetur.</p>
+        </div>
+    </div>
 
-  <div class="clear"></div>
-
-  <footer>
-    <p>footer</p>
-  </footer>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
 
 </body>
 
